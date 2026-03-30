@@ -1,0 +1,170 @@
+/*- 
+    NAME: FARAHANIS SURAYA BINTI AHMAD KAMAL
+    ID     :  2022761939
+*/
+
+/* NavBar */
+.barColor1 { background-color: #B3D9D9 }
+.barColor2 { background-color: #008080; }
+.barColor1:hover { background-color: #008080; }
+.link:hover { color: white; }
+.link2:hover { color: white; }
+.link3:hover { color: black; }
+li { float: right; }
+ul {
+	list-style-type: none;
+	margin: 1;
+	padding: 2;
+	overflow: hidden;
+	background-color: white;
+}
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+/* Image Setting */
+.image2{ float: left; }
+.image{ float : left; }
+.image2{ float : right; }
+
+/* Page Setting */
+body{ 	margin: 0; 
+			background-image: url("image/pastel blue.jpeg"); 
+			height: auto; 
+			width: auto;
+			background-position: center; 
+			background-repeat: no-repeat; 
+			background-size: cover; }
+.header { background-color: white; padding: 2px; }
+hr.new5 { border: 5px solid  #5cceff; border-radius: 0px; }
+.slogan{ float: left; margin: 1; padding: 10; background-color: white; }
+.center { display: block; margin-left: auto; margin-right: auto; }
+.ending { background-color:#ffff00;  padding: 20px; text-align: right; }
+* { box-sizing: border-box; }
+
+/* Rounded Corner */
+#rcorners { border-radius: 20px 20px 20px 20px; }
+#rcorners7 {  border-radius: 0px 15px 15px 0px; }
+#rcorners8 { border-radius: 15px 0px 0px 15px; }
+#rcorners10 { border-radius: 30%; }
+#rcornerstable1 { border-radius:50px; }
+#rcornered { border-radius:20px; }
+
+/* Button */
+.buttonK {
+  background-color: #ffd480; 
+  border: none;
+  color: black;
+  padding: 0px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  float: left;
+}
+.buttonP {
+  background-color: #80ff80; 
+  border: none;
+  color: black;
+  padding: 0px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  float: left;
+}
+.buttonH {
+  background-color: #b3d9ff; 
+  border: none;
+  color: black;
+  padding: 0px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  float: left;
+}
+.button2 {
+  background-color: #b3ffff; 
+  border: none;
+  color: black;
+  padding: 3px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  float: left;
+}
+.button3 {
+  background-color: #e6eeff; 
+  border: none;
+  color: black;
+  padding: 3px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  float: left;
+}
+
+/* Column Setting */
+.column { float: left; width: 33.3%; padding: 5px; }
+.column2 { float: left; width: 33.3%; padding: 5px; }
+.column3 { float: left; width: 33.3%; padding: 5px; }
+.row::after { content: ""; display: table; clear: both; }
+@media screen and (max-width:600px) { .column,.column2,.column3 { width: 100%; } }
+
+/* Spacing */
+div.left{ margin-left:175px; }
+div.left2{ margin-left:125px; margin-bottom:10px }
+div.left3{ margin-left:100px; margin-bottom:10px }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.myBoxClass {
+  padding: 5px;
+}

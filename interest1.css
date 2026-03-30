@@ -1,0 +1,154 @@
+/*- 
+    NAME: FARAHANIS SURAYA BINTI AHMAD KAMAL
+    ID     :  2022761939
+*/
+
+/* NavBar Setting */
+.barColor1 { background-color:#9B59B6 ; }
+.barColor2 { background-color: #C39BD3; }
+.image2{ float: left; }
+.image{ float : left; }
+.link:hover { color: white; }
+.link3:hover { color: black; }
+.link2:hover { color: white; }
+.barColor1:hover{  background-color:#C39BD3 }
+li {float: right;}
+ul { list-style-type: none; margin: 1; padding: 2; overflow: hidden; background-color: white; }
+li a { display: block; color: black; text-align: center; padding: 10px 20px; text-decoration: none; }
+
+/* Slogan */
+.slogan{ float: left; margin: 1; padding: 10; background-color: white; }
+
+/* Image Setting */
+.centered { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.center { display: block; margin-left: auto; margin-right: auto; }
+
+/* Rounded Edge */
+#rcornerstable { border-radius:15px; } /* Infomation Table */
+#rcornerstable1 { border-radius:50px; } /* Music/Gaming Table */
+#rcornerbutton1 { border-radius:30px; } /* Music Button */
+#rcornerbutton2 { border-radius:15px; } /* Music Button */
+#rcorners { border-radius: 10px 10px 10px 10px; }
+#rcorners1 { border-radius:50px 0px 0px 50px; } /* Music Table */
+#rcorners2 { border-radius:0px 50px 50px 0px; } /* Gaming Table */
+#rcorners7 { border-radius: 0px 15px 15px 0px; } /*  NavBar(Left) */
+#rcorners8 { border-radius: 15px 0px 0px 15px; } /*  NavBar(Right) */
+
+/* Info Table */
+.container { position: relative; text-align: center; color: black;  float: none; }
+
+/* Page Setting */
+.header { background-color: white; padding: 2px; }
+.ending { background-color: #00b300;  padding: 20px; text-align: right; }
+hr.new5 { border: 5px solid  purple; border-radius: 0px; }
+hr.new4 { border: 3px dotted  purple; border-radius: 0px; }
+.space { margin-bottom: 6px; }
+body{ margin: 0; 
+			background-image: url("Image/purple wallpaper.jpeg"); 
+			height: auto; 
+			width: auto;
+			background-position: center; 
+			background-repeat: no-repeat; 
+			background-size: cover; }
+
+/* Button(s) */
+.button {
+  background-color: #99ff99; 
+  border: none;
+  color: black;
+  padding: 3px 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button1 {
+	background-color: #99ff99; 
+	color: black; 
+	border: 2px solid #99ff99;
+	}
+	.button1:hover {
+	background-color: #5cd65c;
+	color: white;
+	border: 2px solid #5cd65c;
+	padding: 5px 10px;
+}
+p.solid { border-style: solid; background-color: green; width: 30%; float: left;}
+
+/* Layout Setting */
+* { box-sizing: border-box; }
+.column { float: left; width: 50%; padding: 10px; }
+.column2 { float: left; width: 50%; padding: 10px; }
+.column3 { float: left; width: 60%; padding: 10px; }
+.column4 { float: left; width: 40%; padding: 10px; }
+.column5 { float: center; width: 100%; padding: 10px; }
+.row::after { content: ""; display: table; clear: both; }
+@media screen and (max-width:600px) { .column,.column2 { width: 100%; } }
+@media screen and (max-width:600px) { .column3,.column4 { width: 100%; } }
+@media screen and (max-width:600px) { .column5,.column6 { width: 100%; } }
+
+
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 64px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+  font-size: 48px;
+}
+
+.xlarge-font {
+  font-size: 64px
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #C39BD3;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+}
